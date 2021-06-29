@@ -1,4 +1,4 @@
-- name: Deploy to IBM Cloud Foundry
+- name: discovery-search-sudesh-1
   # You may pin to the exact commit or the version.
   # uses: IBM/cloudfoundry-deploy@5ec05a6ea5045e3a26e5d45d599f527272aaa146
   uses: IBM/cloudfoundry-deploy@v2.0
