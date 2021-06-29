@@ -12,6 +12,6 @@
     # IBM Cloud Foundry space name
     IBM_CLOUD_CF_SPACE: Test
     # App Manifest file
-    APP_MANIFEST_FILE: # optional, default is manifest.yml
+    APP_MANIFEST_FILE: manifest.yml
     # IBM Cloud Foundry resource group
     RESOURCE_GROUP: default
