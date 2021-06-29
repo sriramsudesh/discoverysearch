@@ -1,18 +1,10 @@
-- name: discovery-search-sudesh-1
-  # You may pin to the exact commit or the version.
-  # uses: IBM/cloudfoundry-deploy@5ec05a6ea5045e3a26e5d45d599f527272aaa146
+- name: Deploy to IBM Cloud Foundry
   uses: IBM/cloudfoundry-deploy@v2.0
   with:
-    # IBM Cloud API key
     IBM_CLOUD_API_KEY: 7NwFpKHJXUmHOGfKBJ--UyQm2-FrR3NTilw8efFcacNR
-    # IBM Cloud Foundry API endpoint
     IBM_CLOUD_CF_API: https://api.us-south.cf.cloud.ibm.com
-    # IBM Cloud Foundry organization name
     IBM_CLOUD_CF_ORG: sudesh@sg.ibm.com
-    # IBM Cloud Foundry space name
     IBM_CLOUD_CF_SPACE: Test
-    # App Manifest file
     APP_MANIFEST_FILE: # optional, default is manifest.yml
-    # IBM Cloud Foundry resource group
     RESOURCE_GROUP: default
 
