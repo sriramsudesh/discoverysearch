@@ -5,7 +5,7 @@ applications:
     buildpacks:
       - sdk-for-nodejs
     routes:
-      - route: discovery-search-sudesh.mybluemix.net
+      - route: discovery-search-sudesh-new.mybluemix.net
     env:
       NODE_ENV: production
     command: node ./server.js
