@@ -1,0 +1,12 @@
+applications:
+  - name: discovery-search-sudesh
+    memory: 64M
+    instances: 2
+    buildpacks:
+      - sdk-for-nodejs
+    routes:
+      - route: discovery-search-sudesh.mybluemix.net
+    env:
+      NODE_ENV: production
+    command: node ./server.js
+

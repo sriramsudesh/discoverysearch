@@ -1,0 +1,11 @@
+.env
+.gitignore
+CHANGELOG.md
+cypress/*
+node_modules/*
+.client/src/*
+.node_modules/*
+README.md
+src/*
+!src/setupProxy.js
+
